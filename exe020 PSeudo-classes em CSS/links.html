@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: firebrick;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: coral;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: blue;
+            
+        }
+        a::after{
+            content: " (link)";
+            font-weight: normal;
+            color:rgb(98, 0, 255) ;
+        }
+        a::before{
+            content: "✔";
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1> Personalizando itens</h1>
+    <ul>
+        <li> <a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.youtube.com"> Youtube</a></li>
+        <li> <a href="https://www.twitter.com">Twitter</a></li>
+
+    </ul>
+</body>
+</html>
