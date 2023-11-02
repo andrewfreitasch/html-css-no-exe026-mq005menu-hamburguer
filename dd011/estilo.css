@@ -10,7 +10,7 @@
 }
 
 body{
-    min-height: 100vw;
+    min-height: 100vh;
 }
 
 header {
@@ -64,7 +64,7 @@ section {
     background-color: rgba(0, 0, 0, 0.293);
     border-radius: 10px;
     padding-left: 20px;
-    text-shadow: 1.5px 1.5px 2px gray;
+    text-shadow: 1px 1px 1px gray;
 }
 
 #imglivro{
@@ -76,7 +76,7 @@ section {
 
 #imglivro p{
     color: white;
-    text-shadow: 1px 2.5px 0px rgba(0, 0, 0, 0.674);
+    text-shadow: 1px 2.5px 2px rgba(0, 0, 0, 0.674);
     width: 400px;
     background-color: rgba(0, 0, 0, 0.148);
     border-radius: 10px;
