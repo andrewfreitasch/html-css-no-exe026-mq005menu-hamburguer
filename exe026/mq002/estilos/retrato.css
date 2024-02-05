@@ -6,9 +6,6 @@
 body{
     background-image: url(../imagens/cev-portrait.jpg);
     background-position: center bottom;
-    content: meu pau no body;
+    
 }
 
-h1::after{
-    content: minha xereca;
-}
