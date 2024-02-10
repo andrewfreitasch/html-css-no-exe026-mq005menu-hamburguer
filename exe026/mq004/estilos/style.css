@@ -30,17 +30,18 @@ h1{
 
 main{
     background-color: rgba(255, 255, 255, 0.859);
-    width: 90vw;
+    width: 400px;
     margin: auto;
-    border-radius: 5px;
-    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 img#phone{
     display: block;
-    margin: auto;
 }
 
 img{
     display: none;
+    margin: auto;
 }

@@ -1,3 +1,86 @@
 @charset "UTF-8";
 
 /*outras versões*/
+
+/* Dispositivos extrapequenos (telefones pequenos, 600px para baixo) ate 600px
+Dispositivos pequenos (tablets pequenos e telefones, 600px para cima) ate 768px
+ Dispositivos médios (tablets  768px ate 992px)
+ Dispositivos grandes (laptops/desktops, 992px ate 1200px)
+ Extra large devices (large laptops and desktops, 1200px para cima)
+*/
+
+@media print {
+
+    main{
+        border: 1px solid black;
+        width: 80vw;
+    }
+
+    main::after{
+        content: "ai minha perereca";
+    }
+
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+
+    img#phone{
+        display: none;
+    }
+
+    img#impressora{
+        display: block;
+        
+    }
+}
+
+/* OBS: não usamos media para celular e telas pequenas pq o site principal foi feito para mobile first*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#phone{
+        display: none;
+    }
+
+    img#tablet{
+        display: block;
+        
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#phone,#tablet{
+        display: none;
+    }
+
+    img#desktop{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main{
+        width: 600px;
+    }
+
+    img#phone,#tablet,#desktop{
+        display: none;
+    }
+
+    img#tv{
+        display: block;
+    }
+}
