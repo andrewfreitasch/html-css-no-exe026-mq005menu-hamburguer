@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Hamburguer</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1> Meu site</h1>
-        <nav>
+        <span id="burguer" class="material-icons" onclick="cnav()">menu</span>
+        <nav id="inav">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -29,5 +31,14 @@
             </p>
         </article>
     </main>
+    <script>
+    function cnav() {
+        if(inav.style.display == 'block'){
+                inav.style.display = 'none'
+            } else{
+                inav.style.display = 'block'
+            }
+    } 
+    </script>
 </body>
 </html>
