@@ -1,0 +1,1 @@
+Verifique seu e-mail para definir sua nova senha

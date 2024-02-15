@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
+ div#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 500px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+}
+
+div#login > h1 {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: limegreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+div#login > p {
+    position: relative;
+    top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95em;
+    text-align: center;
+    padding: 10px   
+}
+
+div.campo{
+    position: relative;
+    top: 120px;
+    padding: 10px;
+}
+
+
+input{
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    width: 270px;
+    padding: 15px;
+}
+
+input:hover{
+    border: 1px solid green;
+}
+
+
+#enviar{
+    cursor: pointer;
+    position: relative;
+    top: 135px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: limegreen;
+    color: white;
+    width: 140px;
+}
+
+#enviar:hover{
+    background: green;
+}
+
+#enviar:active{
+    background: limegreen;
+}
+
+a{
+    position: relative;
+    top: 195px;
+    left: -60px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}
+
+
+
