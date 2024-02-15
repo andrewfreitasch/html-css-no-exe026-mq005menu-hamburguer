@@ -43,7 +43,7 @@ div#login > p {
 
 div.campo{
     position: relative;
-    top: 120px;
+    top: 110px;
     padding: 10px;
 }
 
@@ -63,12 +63,13 @@ input:hover{
 #enviar{
     cursor: pointer;
     position: relative;
-    top: 135px;
+    top: 130px;
     left: 50%;
     transform: translate(-50%, 0);
+    font-size: 1em;
     background-color: limegreen;
     color: white;
-    width: 140px;
+    width: 150px;
 }
 
 #enviar:hover{
@@ -81,8 +82,8 @@ input:hover{
 
 a{
     position: relative;
-    top: 195px;
-    left: -60px;
+    top: 193px;
+    left: -70px;
     text-decoration: none;
 }
 
