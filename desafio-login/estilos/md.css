@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+
+    div#login{
+        position: absolute;
+        width: 550px;
+        height: 510px;
+        
+    }
+    
+    div#login > h1 {
+        font-size: 2.5em;
+    }
+
+    div#login > p {
+        margin: auto;
+        font-size: 1em;
+        width: 400px;
+    }
+
+    div.campo{
+        text-align: center;
+    }
+
+    input{
+        width: 450px;
+        padding: 16px;
+    }
+
+    a{
+        position: relative;
+        top: 190px;
+        margin-left: 115px
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    
+    div#login{
+        position: absolute;
+        width: 650px;
+    }
+    
+    div#login > h1 {
+        font-size: 2.7em;
+    }
+
+    div#login > p {
+        position: relative;
+        top: 16%;
+        margin: auto;
+        font-size: 1.07em;
+        width: 530px;
+    }
+
+    input{
+        width: 500px;
+        padding: 16px;
+    }
+
+    div.campo{
+        padding: 15px;
+    }    
+
+    ::placeholder{
+        position: relative;
+        top: 1px;
+        font-size: 1.3em;
+    }
+
+    a{
+        margin-left: 25%;
+    }
+}
+
